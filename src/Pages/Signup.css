@@ -1,0 +1,55 @@
+.login-container{
+    margin-top: 8rem;
+    
+
+}
+.input-bg{
+    background-color: #f3f3f3;
+    color: #dbd5d5;
+    font-size: 0.9rem;
+    height: 2.9rem;
+}
+.custom-btn{
+    padding: 0.6rem;
+    border-radius: 4px;
+}
+.custom-btn-blu{
+    border:1px solid #b3e1fff4;
+    background-color: #b3e0ff;
+    color: #fff;
+    padding: 14px;
+    cursor: pointer;
+}
+.custom-btn-white{
+    border:1px solid #dee5e9;
+    background-color: #f0f3f5;
+    color: #000;
+    height: 60px;
+    padding: 14px;
+}
+.socialDesktop{
+    display: block;
+}
+.socialMobile{
+    display: none;
+}
+
+@media only screen and (max-width:450px){
+    
+    .socialDesktop{
+        display: none;
+    }
+    .socialMobile{
+        display: block;
+    }
+    .login-container{
+        margin-top: 2.5rem;
+    }
+    .card{
+        border:none !important;
+    }
+    .custom-btn-white{
+        height: 70px;
+    }
+
+}

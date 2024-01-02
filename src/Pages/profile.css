@@ -1,0 +1,95 @@
+.profile-pic{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+
+}
+.count-section{
+    border-right: 2px solid black;
+    padding-right: 20px;
+}
+.container{
+    width: 76vw;
+}
+.custom-btn{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:20px;
+    margin: 10px;
+    
+    padding: 0.6rem;
+    border-radius: 4px;
+}
+.custom-btn-white{
+    border:1px solid #e9e5e6;
+    background-color: #fdfeffe9;
+    height: 60px;
+    padding: 14px;
+    box-shadow: #fdfeff;
+}
+.custom-btn-pink{
+    border:1px solid darkolivegreen;
+    background-color:  darkolivegreen;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    padding: 14px;
+    box-shadow: #fdfeff;
+}
+
+.card{
+      display: flex;
+      width: 100%;
+      margin: 20px;
+    
+      
+}
+
+
+.upload-box{
+   
+    height: 400px;
+    width: 80%;
+    border: 2px dotted grey;
+    border-radius: 10px;
+    position: relative;
+}
+
+.dropcontainer{
+    width: 40px;
+    height: 50px;
+    border: double 1px;
+}
+
+
+.dropZoneOverlay, .FileUpload{
+    width: 280px;
+    height: 71px;
+}
+
+
+
+.dropZoneOverlay{  
+     
+    font-family: cursive;
+    color: rgba(0, 204, 255, 0.811);
+    top:40px;
+    left: 28px;  
+    text-align: center;
+}
+.FileUpload{
+    opacity: 0;
+    position: relative;
+  
+    z-index: 1;
+}
+@media only screen and (max-width:450px){
+    .container{
+        width:100vw !important;
+    }
+    .card{
+        margin-bottom: 10px;
+    }
+}

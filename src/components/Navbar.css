@@ -1,0 +1,47 @@
+.navbar{
+  height: 75px ;
+}
+.searchbox{
+  width: 30vw;
+  padding: 10px;
+}
+.searchIcon{
+  display: none;
+}
+.navbar-profile-pic{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.dropdown-item{
+  background-color: blueviolet;
+}
+
+
+@media only screen and (max-width: 450px){
+  
+  .navbar{
+    display: inline;
+  }
+  
+  .searchbox{
+      
+      display: none;
+      
+  }
+  .searchIcon{
+    margin-top: 15px;
+    margin-inline: 12px;
+    text-decoration: none;
+    
+  }
+
+  .navbar-brand{
+    margin-left: -62px;
+  }
+  
+  .searchIcon{
+      display: flex;
+  }
+}
+
