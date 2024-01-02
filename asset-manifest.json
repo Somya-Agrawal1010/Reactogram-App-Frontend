@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Reactogram-App-Frontend/static/css/main.8b21b8d5.css",
+    "main.js": "/Reactogram-App-Frontend/static/js/main.47aee11c.js",
+    "static/media/social-desktop.PNG": "/Reactogram-App-Frontend/static/media/social-desktop.6caa32fb2aa06f6edb63.PNG",
+    "static/media/social-mobile.PNG": "/Reactogram-App-Frontend/static/media/social-mobile.9d90f395258c18b37ffe.PNG",
+    "static/media/logo.PNG": "/Reactogram-App-Frontend/static/media/logo.75eed94286e4395e82ba.PNG",
+    "index.html": "/Reactogram-App-Frontend/index.html",
+    "static/media/more-action.PNG": "/Reactogram-App-Frontend/static/media/more-action.2e62a30187b22824287b.PNG",
+    "main.8b21b8d5.css.map": "/Reactogram-App-Frontend/static/css/main.8b21b8d5.css.map",
+    "main.47aee11c.js.map": "/Reactogram-App-Frontend/static/js/main.47aee11c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b21b8d5.css",
+    "static/js/main.47aee11c.js"
+  ]
+}
